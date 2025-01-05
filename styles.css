@@ -1,0 +1,129 @@
+/* 重置浏览器默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局字体和基本样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 头部样式 */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* 导航栏样式 */
+.nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 内容区域样式 */
+.content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 10px;
+}
+
+/* 轮播图样式 */
+.carousel {
+    width: 100%;
+    height: 300px;
+    background-color: #aaa;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+/* 新闻和推荐宠物样式 */
+.news, .recommended-pets {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.news h2, .recommended-pets h2 {
+    color: #333;
+}
+
+.news ul, .recommended-pets ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news li, .recommended-pets li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* 宠物护理知识、宠物用品推荐、社区交流的通用样式 */
+.section, .product-recommendation, .community-section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.section h2, .product-category h2, .community-section h2 {
+    color: #333;
+}
+
+.subsection, .product-item, .community-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.subsection h3, .product-name, .post-header {
+    color: #555;
+}
+
+.product-description, .post-content {
+    color: #555;
+    margin: 5px 0;
+}
+
+.product-review, .post-comments {
+    color: #888;
+    font-style: italic;
+}
+
+.community-event {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .nav a {
+        float: none;
+        width: 100%;
+    }
+}
